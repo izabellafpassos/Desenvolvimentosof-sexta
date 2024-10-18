@@ -12,4 +12,7 @@ public class observadorSecretaria extends absObserver {
         this.nota_observada.attach(this);
         //esse ojeto tem que se increver no observado 
 }
+    public void update{
+        System.out.println("secretaria recebeu a notificaçao");
+    }
 }
