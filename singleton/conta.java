@@ -9,7 +9,7 @@ public class conta {
         this.numero_conta = numero_conta;
     }
 
-    public static conta getInstance(String numero_conta) {
+    public static conta getInstancia(String numero_conta) {
         if(instancia == null){
             instancia = new conta(numero_conta);
         }
@@ -23,6 +23,6 @@ public class conta {
         this.saldo -= valor;
      }
      public Double getSaldo(Double valor){
-        this.saldo;
+        return this.saldo;
      }
 }
